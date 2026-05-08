@@ -243,42 +243,6 @@ export function HeroGlobe({ className = '' }: Props) {
           </circle>
         </svg>
 
-        {/* Top-left readout */}
-        <div
-          className="absolute top-7 left-7 font-mono text-xs"
-          style={{ color: '#00ff88' }}
-        >
-          <div className="flex flex-col gap-0.5">
-            <div className="flex gap-3">
-              <span style={{ color: 'rgba(0,255,136,0.5)' }}>LAT</span>
-              <span>40.4168°N</span>
-            </div>
-            <div className="flex gap-3">
-              <span style={{ color: 'rgba(0,255,136,0.5)' }}>LON</span>
-              <span>003.7038°W</span>
-            </div>
-            <div className="flex gap-3">
-              <span style={{ color: 'rgba(0,255,136,0.5)' }}>SCAN</span>
-              <span style={{ color: '#e6e6e6' }}>ACTIVE</span>
-            </div>
-          </div>
-        </div>
-
-        {/* Bottom-right readout */}
-        <div
-          className="absolute bottom-7 right-7 font-mono text-xs text-right"
-        >
-          <div className="flex flex-col gap-0.5 items-end">
-            <div className="flex gap-3">
-              <span style={{ color: 'rgba(255,85,112,0.5)' }}>THREATS</span>
-              <span style={{ color: '#ff5570' }}>06</span>
-            </div>
-            <div className="flex gap-3">
-              <span style={{ color: 'rgba(0,255,136,0.5)' }}>SAFE</span>
-              <span style={{ color: '#00ff88' }}>40</span>
-            </div>
-          </div>
-        </div>
       </div>
     </CornerFrame>
   );

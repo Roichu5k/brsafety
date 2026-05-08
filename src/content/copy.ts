@@ -133,7 +133,7 @@ export const copy = {
       },
       company: {
         title: 'Empresa',
-        links: ['Manifiesto', 'Contacto'],
+        links: ['Contacto'],
       },
       legal: {
         title: 'Legal',

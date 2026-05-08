@@ -1,7 +1,6 @@
 'use client';
 
 import { copy } from '@/content/copy';
-import { TerminalChip } from '@/components/ui/TerminalChip';
 import { HeroGlobe } from '@/components/HeroGlobe';
 
 export function Hero() {
@@ -12,10 +11,6 @@ export function Hero() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-8 items-center">
           {/* Copy column */}
           <div className="flex flex-col gap-6">
-            <div>
-              <TerminalChip>{copy.hero.eyebrow}</TerminalChip>
-            </div>
-
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
               <span style={{ color: 'var(--color-fg)' }}>
                 {copy.hero.h1Line1}
