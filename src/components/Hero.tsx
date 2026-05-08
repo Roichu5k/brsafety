@@ -47,7 +47,7 @@ export function Hero() {
                 {copy.hero.ctaPrimary}
               </a>
               <a
-                href="#servicios"
+                href="#como-trabajamos"
                 className="inline-flex items-center justify-center px-6 py-3 font-mono text-sm border transition-colors"
                 style={{
                   color: 'var(--color-fg-dim)',
@@ -61,12 +61,15 @@ export function Hero() {
 
           {/* Globe column */}
           <div
-            className="flex items-center justify-center bg-grid"
+            className="flex flex-col items-center justify-center gap-3"
             style={{
               background: 'radial-gradient(ellipse 80% 60% at 70% 40%, #112620 0%, #060a0c 55%, #03060a 100%)',
             }}
           >
             <HeroGlobe className="w-full max-w-sm md:max-w-none" />
+            <p className="font-mono text-xs text-center" style={{ color: 'rgba(154,166,173,0.5)' }}>
+              {copy.hero.globeCaption}
+            </p>
           </div>
         </div>
       </div>
@@ -92,7 +95,7 @@ export function Hero() {
                   className="font-mono text-xs"
                   style={{ color: 'rgba(0,255,136,0.4)' }}
                 >
-                  {'// '}{service.num}
+                  {service.num}.
                 </span>
                 <span
                   className="font-mono text-sm font-medium"

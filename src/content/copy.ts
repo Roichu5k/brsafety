@@ -14,10 +14,11 @@ export const copy = {
     eyebrow: 'Escaneando 4.218 superficies en vivo',
     h1Line1: 'Tu empresa,',
     h1Line2: 'blindada.',
-    h1Line3: '// antes que ellos.',
+    h1Line3: 'Antes que ellos.',
     sub: 'Dependéis de lo digital pero no tenéis un equipo de seguridad propio. Auditamos vuestra web, infraestructura y red Wi-Fi —y os entregamos exactamente lo que escanean los atacantes, antes que ellos.',
     ctaPrimary: 'Pedir auditoría →',
-    ctaSecondary: '[ ver_metodología.md ]',
+    ctaSecondary: 'Cómo trabajamos →',
+    globeCaption: 'Superficie de ataque de una PYME tipo',
   },
   services: {
     sectionTitle: 'Servicios',
@@ -123,6 +124,65 @@ export const copy = {
       location: 'Madrid, España',
       response: 'Respuesta en < 24h laborables',
     },
+  },
+  howItWorks: {
+    sectionTitle: 'Cómo trabajamos',
+    sectionSub: 'Sin sorpresas. Sin letra pequeña. Sin interrumpir vuestra actividad.',
+    steps: [
+      {
+        num: '01',
+        title: 'Diagnóstico gratuito',
+        desc: 'Una llamada de 30 minutos para entender qué protegéis, cómo está montado y qué os preocupa. Sin compromiso.',
+      },
+      {
+        num: '02',
+        title: 'Auditoría acordada',
+        desc: 'Definimos el alcance juntos y empezamos. La mayoría de auditorías duran entre 1 y 3 semanas según el tipo y tamaño.',
+      },
+      {
+        num: '03',
+        title: 'Informe doble',
+        desc: 'Un informe ejecutivo para dirección y uno técnico para IT. Con severidad, evidencias y solución para cada hallazgo.',
+      },
+      {
+        num: '04',
+        title: 'Seguimiento incluido',
+        desc: 'Una vez aplicados los parches, verificamos que los problemas están realmente cerrados. Sin coste adicional.',
+      },
+    ],
+  },
+  trust: {
+    items: [
+      { label: 'Metodología', value: 'OWASP · PTES · NIST' },
+      { label: 'Informe', value: 'Ejecutivo + Técnico' },
+      { label: 'Tiempo de entrega', value: '1 – 3 semanas' },
+      { label: 'Seguimiento', value: 'Incluido sin coste' },
+    ],
+  },
+  faq: {
+    sectionTitle: 'Preguntas frecuentes',
+    items: [
+      {
+        q: '¿Cuánto cuesta una auditoría?',
+        a: 'Depende del alcance. Una auditoría web para una PYME parte desde 1.500 €. Pedid presupuesto sin compromiso —respondemos en menos de 24 horas con una estimación clara.',
+      },
+      {
+        q: '¿Interrumpís la actividad de la empresa?',
+        a: 'No. Trabajamos en modo no destructivo por defecto. Las pruebas se coordinan con vosotros para evitar cualquier impacto en producción.',
+      },
+      {
+        q: '¿Cuánto tarda una auditoría?',
+        a: 'Entre 1 y 3 semanas según el tipo y tamaño. Al inicio acordamos una fecha de entrega del informe y la cumplimos.',
+      },
+      {
+        q: '¿Qué recibimos al final?',
+        a: 'Un informe ejecutivo (para dirección, sin tecnicismos) y uno técnico (para IT, con evidencias y pasos exactos para corregir cada hallazgo).',
+      },
+      {
+        q: '¿Tenemos que daros acceso a todo?',
+        a: 'Solo accedéis a lo que hayamos definido juntos en el alcance, firmado en un contrato de confidencialidad antes de empezar.',
+      },
+    ],
   },
   footer: {
     claim: 'auditoría · pentest · respuesta',

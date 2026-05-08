@@ -88,7 +88,7 @@ export function Services() {
                   className="font-mono text-sm mb-4"
                   style={{ color: 'rgba(0,255,136,0.4)' }}
                 >
-                  {'// '}{item.num}
+                  {item.num}.
                 </div>
 
                 {/* Icon + Title */}
