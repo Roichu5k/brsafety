@@ -74,46 +74,6 @@ export function Hero() {
         </div>
       </div>
 
-      {/* Services strip */}
-      <div
-        className="border-t"
-        style={{
-          background: 'var(--color-bg-elev)',
-          borderColor: 'var(--color-border)',
-        }}
-      >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-2 md:grid-cols-4 divide-x"
-            style={{ borderColor: 'var(--color-border)' }}
-          >
-            {copy.services.items.map((service) => (
-              <div
-                key={service.num}
-                className="px-4 py-4 flex flex-col gap-1"
-              >
-                <span
-                  className="font-mono text-xs"
-                  style={{ color: 'rgba(0,255,136,0.4)' }}
-                >
-                  {service.num}.
-                </span>
-                <span
-                  className="font-mono text-sm font-medium"
-                  style={{ color: 'var(--color-fg)' }}
-                >
-                  {service.title}
-                </span>
-                <span
-                  className="font-mono text-xs"
-                  style={{ color: 'var(--color-fg-dim)' }}
-                >
-                  {service.tags.join(' · ')}
-                </span>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
     </section>
   );
 }
